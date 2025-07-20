@@ -41,7 +41,7 @@ body {
         margin-right: 0.75rem !important;
     }
 } 
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-width: 500px) {
     .container-fluid {
         margin-left: 0.25rem !important;
         margin-right: 0.25rem !important;
@@ -144,8 +144,13 @@ body {
 
 /* Show Page */
 .show-img {
-    height: 250px;
+    height: 30vh;
+}
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100%;
     object-fit: cover !important;
+    height: 250px;
     border-radius: 1rem !important;
 }
 .btns {
@@ -258,7 +263,13 @@ body {
     }
 } 
 
-@media only screen and (max-device-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1050px) {
+    .explore-link {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
     .filter-btn{
         display: flex;
         justify-content: center;
@@ -272,7 +283,7 @@ body {
 }
 
 
-@media only screen and (max-device-width: 560px) {
+@media only screen and (max-width: 560px) {
     .navbar-brand,
     .fa-compass{
         display: none;
@@ -280,4 +291,33 @@ body {
     .navbar-toggler{
         margin: 0 !important;
     }
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .review-card{
+        display: inline-block !important;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .review-card-body{
+        width: 100% !important;
+        padding: 1rem !important;
+        margin: 0.5rem !important;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .review-card{
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        justify-content: space-evenly;
+    }
+    .review-card-body{
+        width: 45% !important;
+        padding: 1rem !important;
+        margin: 0.5rem !important;
+    }   
 }
