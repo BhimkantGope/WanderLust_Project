@@ -258,12 +258,6 @@ body {
     }
 } 
 
-@media screen and (min-width: 992px) and (max-width: 1050px) {
-    .explore-link {
-        display: none;
-    }
-}
-
 @media only screen and (max-device-width: 992px) {
     .filter-btn{
         display: flex;
