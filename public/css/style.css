@@ -162,10 +162,11 @@ body {
     padding-right: 0;
 }
 
+
 /*  Map */
 #map {
-    height: 300px;
-    width:85vh;
+    height: 250px;
+    border-radius: 1rem !important;
 }
 
 .search-btn-one,
