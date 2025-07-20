@@ -110,13 +110,7 @@ body {
 /* Cards */
 .listing-card {
     border: none !important;
-    margin-bottom: 2rem;
-}
-
-.card-img-top {
-    border-radius: 1rem !important;
-    width: 100%;
-    object-fit: cover !important;
+    margin-bottom: 2rem !important;
 }
 
 .card-body {
@@ -150,9 +144,10 @@ body {
 
 /* Show Page */
 .show-img {
-    height: 30vh;
+    height: 250px;
+    object-fit: cover !important;
+    border-radius: 1rem !important;
 }
-
 .btns {
     display: flex;
 }
@@ -161,7 +156,6 @@ body {
     padding-left: 0;
     padding-right: 0;
 }
-
 
 /*  Map */
 #map {
