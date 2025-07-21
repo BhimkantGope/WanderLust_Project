@@ -143,23 +143,14 @@ body {
 }
 
 /* Show Page */
-.show-img {
-    height: 30vh;
-}
 .card-img-top {
     border-radius: 1rem !important;
     width: 100%;
     object-fit: cover !important;
     height: 250px;
-    border-radius: 1rem !important;
 }
 .btns {
     display: flex;
-}
-
-.show-card {
-    padding-left: 0;
-    padding-right: 0;
 }
 
 /*  Map */
@@ -293,8 +284,6 @@ body {
     }
 }
 
-
-
 @media only screen and (max-width: 991px) {
     .review-card{
         display: inline-block !important;
@@ -304,7 +293,7 @@ body {
     .review-card-body{
         width: 100% !important;
         padding: 1rem !important;
-        margin: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
     }
 }
 
@@ -316,8 +305,8 @@ body {
         justify-content: space-evenly;
     }
     .review-card-body{
-        width: 45% !important;
+        width: 48% !important;
         padding: 1rem !important;
-        margin: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
     }   
 }
